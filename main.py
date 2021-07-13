@@ -92,7 +92,7 @@ def onclick(arr, res_arr,  it, t_input_box, btns):
 
 def check_answer(arr, res_arr, t_input_box, f_name, btns):
 
-    sys.path.append('./examples/')
+    sys.path.append('./examples')
     if arr == res_arr:
         messagebox.showinfo('message', 'Congratulation! Now click "OK" and check program work in your console!')
         m_name = f_name[f_name.rfind('/')+1:-3]
